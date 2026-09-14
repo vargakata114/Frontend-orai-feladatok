@@ -1,0 +1,130 @@
+body{
+    background-color: #f8f9fa;
+    color: #212529;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    padding: 15px 0;
+}
+
+.navbar-brand{
+    font-size: 1.4rem;
+}
+
+.nav-link{
+    transition: 0.2s;
+}
+
+.nav-link:hover{
+    color: #198754 !important;
+}
+
+.hero-section{
+    padding: 100px 20px;
+    background:
+        linear-gradient(
+            135deg,
+            #e9f7ef,
+            #f8f9fa
+        );
+}
+
+.hero-section h1{
+    max-width: 750px;
+    margin: 0 auto 20px;
+}
+
+.hero-section p{
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.shoe-card{
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.shoe-card:hover{
+    transform: translateY(-10px);
+    box-shadow:
+        0 15px 30px rgba(0, 0, 0, 0.12) !important;
+}
+
+.shoe-image{
+    height: 240px;
+    object-fit: cover;
+}
+
+.shoe-card .card-body{
+    padding: 25px;
+}
+
+.shoe-card .card-title{
+    font-size: 1.25rem;
+}
+
+.shoe-card .card-text{
+    line-height: 1.6;
+}
+
+.price{
+    color: #198754;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.shoe-card .btn{
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.shoe-card .btn:hover{
+    transform: scale(1.02);
+}
+
+.about-section{
+    background-color: white;
+}
+
+.about-text{
+    max-width: 650px;
+    line-height: 1.7;
+}
+
+.feature-box{
+    padding: 30px 20px;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #f8f9fa;
+    transition: 0.3s;
+}
+
+.feature-box:hover{
+    background-color: #e9f7ef;
+    transform: translateY(-5px);
+}
+
+.feature-icon{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px){
+    .hero-section{
+        padding: 70px 20px;
+    }
+
+    .hero-section h1{
+        font-size: 2.2rem;
+    }
+
+    .shoe-image{
+        height: 220px;
+    }
+}
